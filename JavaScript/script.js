@@ -21,7 +21,7 @@ let styleNone = itens.style.display == 'none'
 }
 */
 function clickMenu() {
-    var mediaQuery = window.matchMedia("(max-width: 425px)");
+    var mediaQuery = window.matchMedia("(max-width: 425px)"); //Mudar depois adicionar 430px
     if (mediaQuery.matches) { // Verifica se a condição de mídia é atendida se for atendida deixa de ser block para ser flex
         if (itens.style.display == 'flex') {
             itens.style.display = 'none';
